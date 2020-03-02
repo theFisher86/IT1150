@@ -1,0 +1,56 @@
+		body {
+			background: #fff;
+			color: #666;
+            font-family: "Arial", "Helvetica", sans-serif;
+		}
+		.header {
+			background: #003;
+            background-image: url("sunset.jpg");
+            background-repeat: no-repeat;
+            background-position: right;
+			color: #fff;
+            line-height: 400%;
+            text-indent: 1em;
+		}
+		.nav {
+			background: #90C7E3;
+			font-weight: bold;
+			display: flex;
+		}
+		.nav p{
+			margin: 5px 10px 5px 10px;
+		}
+        .nav a{
+            text-decoration: none;
+        }  
+		h1 {
+			margin-bottom: 0px;
+            font-family: "Georgia", "Times New Roman", serif;
+		}
+		h2 {
+			color: #3399CC;
+            font-family: "Georgia", "Times New Roman", serif;
+		}
+        h3 {
+            font-family: "Georgia", "Times New Roman", serif;
+        }
+        ul {
+            list-style-image: url("ch5pacific/marker.gif");
+        }
+		dt {
+			color: #003;
+		}
+		.resort {
+			color: #5c7fa3;
+            font-weight: bold;
+		}
+        .footer {
+            font-size: 75%;
+            font-style: italic;
+            font-family: "Georgia", "Times New Roman", serif;
+            text-align: center;
+        }
+        .contact {
+            font-size: 90%;
+        }
+            
