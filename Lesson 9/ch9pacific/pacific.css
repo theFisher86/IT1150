@@ -127,8 +127,23 @@ footer {
 .contact {
 	font-size: 90%;
 }
-
+label {
+	float: left;
+	display: block;
+	text-align: right;
+	width: 120px;
+	padding-right: 10px;
+}
+input, textarea {
+	display: block;
+	margin-bottom: 20px;
+}
+input[type="submit"]{
+	margin-left: 130px;
+}
+	
 /* Media Queries */
+/* ---Tablet */
 @media only screen and (max-width: 64em) {
 	body{
 		margin: 0px;
@@ -171,6 +186,7 @@ footer {
 	}
 }
 
+/* ---Phone */
 @media only screen and (max-width: 37.5em) {
 	body{
 		background: #0f0;
@@ -202,6 +218,13 @@ footer {
 	}
 	#desktop {
 		display: none;
+	}
+	label {
+		float: none;
+		text-align: left;
+		input[type="submit"] {
+			margin-left: 0px;
+		}
 	}
 	
 }
